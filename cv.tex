@@ -5,20 +5,25 @@
 \usepackage{enumitem}
 \usepackage{titlesec}
 \usepackage{helvet}
+\usepackage{hyperref} % 导入 hyperref 宏包
+\hypersetup{
+	colorlinks=true,
+	urlcolor=blue,   % 设置链接的颜色为蓝色
+}
 
 \renewcommand{\familydefault}{\sfdefault}
 \titleformat{\section}{\large\bfseries}{}{0em}{}[\titlerule]
 
 \begin{document}
-
-\begin{center}
-    {\LARGE Yang Cai}\\
-    \vspace{0.1cm}
-    Ningbo, China \\
-    Email: seewhysimon@mail.nwpu.edu.cn \\
-    Phone: +86-188-5741-9883 \\
-    GitHub: https://github.com/SeeWhysimon
-\end{center}
+	
+	\begin{center}
+		{\LARGE Yang Cai}\\
+		\vspace{0.1cm}
+		Ningbo, China \\
+		Phone: +86-188-5741-9883 \\
+		Email: \href{mailto:seewhysimon@mail.nwpu.edu.cn}{seewhysimon@mail.nwpu.edu.cn} \\
+		GitHub: \href{https://github.com/SeeWhysimon}{https://github.com/SeeWhysimon} % 使用 \href 命令生成超链接
+	\end{center}
 
 \section*{Education}
 \begin{itemize}[leftmargin=0.5cm]
@@ -35,6 +40,7 @@
 
 \end{itemize}
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section*{Research Experience}
 \begin{itemize}[leftmargin=0.5cm]
     \item \textbf{Co-Principal Investigator, National-Level College Student Innovation and Entrepreneurship Project on Hybrid Engine Design} \\
@@ -47,24 +53,22 @@
     \end{itemize}
     
 \end{itemize}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section*{Internship Experience}
 \begin{itemize}[leftmargin=0.5cm]
-    \item \textbf{Position, Company/Institution Name, Location} \hfill \textit{Month Year -- Month Year} 
-    
-    \begin{itemize}
-        \item Brief description of your responsibilities and achievements.
-        \item Another significant achievement or task.
-    \end{itemize}
-    
-    \item \textbf{Position, Company/Institution Name, Location} \hfill \textit{Month Year -- Month Year}
-    
-    \begin{itemize}
-        \item Brief description of your responsibilities and achievements.
-        \item Another significant achievement or task.
-    \end{itemize}
+	\item \textbf{Intern, Acoustics Engineering and Testing Technology Team, Northwestern Polytechnical University Ningbo Research Institute} \\
+	\textit{Ningbo, China} \hfill \textit{July 2024 -- August 2024} 
+	
+	\begin{itemize}
+		\item Participated in a medical-engineering integration project focused on combining acoustic and EEG technology for Alzheimer's disease treatment.
+		\item Assisted in data analysis and contributed to the development of innovative treatment methodologies.
+	\end{itemize}
 \end{itemize}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section*{Competition Experience}
 \begin{itemize}[leftmargin=0.5cm]
     \item \textbf{Mathematical Contest in Modeling (MCM)} \hfill \textit{January 2024} \\
@@ -74,7 +78,9 @@
     My team worked on a problem related to the control of water flow in the Great Lakes, developed a robust model, and provided innovative solutions, 
     leading to the achievement of the Honorable Mention.
 \end{itemize}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section*{Honors \& Awards}
 \begin{itemize}[leftmargin=0.5cm]
     \item \textbf{Second-Class Scholarship}, \textit{Northwestern Polytechnical University} \hfill \textit{December 2023} \\
@@ -83,19 +89,25 @@
     \item \textbf{Diligent Study Model}, \textit{Northwestern Polytechnical University} \hfill \textit{December 2023} \\
     Recognized as an exemplary individual for dedication and perseverance in studies, awarded to students who demonstrate exceptional commitment to academic growth.
 \end{itemize}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section*{Skills}
 \begin{itemize}[leftmargin=0.5cm]
     \item \textbf{Programming Languages:} C (Proficient), Python (Proficient)
     \item \textbf{Tools \& Technologies:} MATLAB, LaTeX (Proficient)
 \end{itemize}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section*{Languages}
 \begin{itemize}[leftmargin=0.5cm]
-    \item \textbf{Chinese:} Native
-    \item \textbf{English:} Proficient
+	\item \textbf{Chinese:} Native
+	\item \textbf{English:} Proficient (CET-6: 599)
 \end{itemize}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section*{Extracurricular Achievements}
 \begin{itemize}[leftmargin=0.5cm]
     \item \textbf{Yan Yiti Cup}, \textit{Northwestern Polytechnical University} \hfill \textit{November 2023} 
@@ -106,6 +118,6 @@
         \item 1st Place in Mixed 4x50m Relay
     \end{itemize}
 \end{itemize}
-
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \end{document}
